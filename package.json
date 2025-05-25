@@ -1,0 +1,43 @@
+{
+  "name": "youtube-transcript-summarizer",
+  "version": "1.0.0",
+  "description": "Chrome extension that enhances YouTube experience with transcript viewing and AI-powered summaries",
+  "main": "content.js",
+  "scripts": {
+    "build": "echo 'No build process needed for this Chrome extension'",
+    "test": "echo 'No tests configured'",
+    "lint": "echo 'Linting not configured'",
+    "package": "zip -r youtube-transcript-summarizer.zip . -x '*.git*' 'node_modules/*' 'package-lock.json' '.DS_Store'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "youtube",
+    "transcript",
+    "ai",
+    "summarizer",
+    "chatgpt",
+    "gemini",
+    "claude",
+    "openai",
+    "google",
+    "anthropic"
+  ],
+  "author": "Internship Assessment Project",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/youtube-transcript-summarizer"
+  },
+  "bugs": {
+    "url": "https://github.com/username/youtube-transcript-summarizer/issues"
+  },
+  "homepage": "https://github.com/username/youtube-transcript-summarizer#readme",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "Chrome >= 88"
+  ]
+}
